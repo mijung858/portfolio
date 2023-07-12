@@ -1,0 +1,368 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{ font-size:12px;color:#5b5b5b;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px;
+		overflow-x:hidden;
+		font-family: 'Noto Sans KR', sans-serif;}
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+
+a,a:link,a:visited,a:active{letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px; color: #000000;}
+
+
+/*공통영역시작*/
+.clearfix::after{content:""; display:block; clear:both;}
+.logo, nav, nav li, .icon li{float:left;}
+.icon{float:right;}
+
+
+.header_wrap{background-color:#ffffff; height: 122px;}
+
+header{width:1920px;
+	margin:0 auto;
+    height: 100px;}
+
+.logo{width:150px;
+		margin-left:800px;
+	margin-top: 30px;
+}
+.logo img{width:100%;}
+
+nav{ margin-left:25px;
+	background-color: antiquewhite;
+	margin-top:35px;
+}
+.icon li {  font-size: 14px;
+			margin-right:25px;
+			margin-top:35px;}
+/* ------------------------헤더---------------------- */
+section{
+	width:1920px ;
+
+}
+.background{
+	width:1920px  ;
+	background-color: #cac8c8;
+	height: 1080px;
+	position: relative;
+}
+
+/* --------------------슬라이더------------------- */
+
+
+/* -------------------------------------------- */
+.collection_txt{
+	width:1700px;
+	border-top:  solid 1px black;
+	margin: 0 auto;
+	height: 120px;
+
+	
+}
+.collection_txt_first{
+	width:1700px;
+	margin: 0 auto;
+	height: 120px;
+}
+.collection_txt_first>p{
+	font-size: 30px;
+	font-weight: 700;
+	line-height:120px;
+}
+.collection_txt>p{
+	font-size: 30px;
+	font-weight: 700;
+	line-height:120px;
+}
+.preview_wrap{
+	width:1780px ;
+
+	height:850px;
+	margin:0 auto;
+}
+.preview{
+	
+	padding-top: 30px;
+	height: 670px;
+   width: 1300px;
+	margin:0 auto;
+
+}
+.preview_img{
+	width: 600px;
+	height: 670px;
+	float: left;
+
+	overflow: hidden;
+}
+.preview_img a img{
+ width: 100%;
+}
+.preview_detail{
+	width: 670px;
+	height: 330px;
+
+	float: right;
+}
+.preview_detail:nth-of-type(2){
+	margin-top: 10px;
+}
+.preview_detail li:first-of-type{
+width: 330px;
+height: 330px;
+
+float: left;
+margin: auto 0;
+}
+.preview_detail li:nth-of-type(2){
+float: right;
+width: 330px;
+height: 330px;
+}
+/* -------------------------------------------- */
+.list_slider{
+	width: 1920px;
+margin-top: 50px;
+height:600px;
+}
+.bx-wrapper{
+	
+width: 100%;
+
+}
+
+.bxslider{
+   margin-top: 50px;
+}
+.thumb_img{
+  background-color: white;
+  border-radius: 5px;
+	position: absolute;
+	transition-duration: 1s;
+transition-timing-function: ease-in-out;
+width:310px;
+	height: 365px;
+}
+
+.thumb_img>a img{
+	width:300px;
+	height: 355px;
+  position: absolute;
+  align-items: center;
+  border-radius: 5px;
+}
+.thumb_img:hover{
+	box-shadow: 0px 8px 24px 15px rgba(7, 7, 7, 0.105) ;
+	transform: scale(1.05);
+}
+
+.hover_effect:hover{
+	opacity: 0;
+  
+}
+
+.hover_effect{
+	width:310px;
+	height: 365px;
+ opacity: 1;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.289);
+	top: 0;
+	right: 0;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
+border-radius: 5px;
+
+}
+
+
+/* -------------------------------------------------------- */
+
+.event_warp{
+width: 1920px;
+	height: 1000px;
+	margin-top: 50px;
+}
+.event{
+	width: 1500px;
+	height: 800px;
+
+	margin:0 auto;
+}
+.event_banner{
+	float: right;
+	width:806px;
+	height: 401px;
+}
+.event_txt{
+	position: relative;
+	float: left;
+}
+.event_txt>p{
+	font-size: 45px;
+	line-height: 80px;
+	font-weight: 800;
+	height: 80px;
+	margin-top: 80px;
+	margin-left: 100px;
+	text-align: center;
+}
+.banner_line{
+	width: 1400px;
+	height: 451px;
+	padding-top: 50px;margin:0 auto;
+}
+.banner{ 
+	width: 1400px;
+	height:345px;
+	
+	margin:0 auto;
+}
+.banner_img:first-of-type{
+	width: 668px;
+	height: 271px;
+	
+	float: right;
+
+}
+
+.banner_img:nth-of-type(2){
+	width: 668px;
+	height: 271px;
+	
+	float:left;
+}
+.eventlink{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	background-color: #000000;
+	color: white;
+	font-size: 14px;
+	display: block;
+	top: 300px;
+	line-height:10px;
+	text-align: center;
+	border-radius: 100px;
+	left: 200px;
+	text-decoration: none;
+}
+.eventlink>p{
+	
+	width: 150px;
+	height: 40px;
+	
+	color: white;
+	font-size: 14px;
+	
+	
+	line-height:40px;
+
+	
+}
+/* ---------------------------------------------- */
+footer{
+width: 1920px;
+	height: 350px;
+	background-color: black;
+}
+
+.footer_wrap{height:450px;
+	background-color:#000000;}
+footer{width:1400px;
+height:350px;
+margin:0 auto;
+position:relative;
+top:75px;
+
+}
+footer div>img{width:200px;
+	margin-top: 50px;
+
+	}
+.foot_logo{width:300px;
+}
+.foot_logo>h2{font-size:15px;
+			line-height:10px;
+			margin-bottom:10px;
+			margin-top: 40px;
+		color: #595959}
+.company_add,.company_bank,.company_service>h2{font-size:15px;
+			line-height:30px;
+			margin-bottom:20px;
+		color: #595959;
+	}
+	.company_service>h2{font-size:15px;
+		line-height:10px;
+		margin-bottom:20px;
+	color: #595959;
+}
+	.company_list>h2{font-size:15px;
+		line-height:30px;
+		margin-bottom:10px;
+	color: #595959;
+}
+.foot_logo>p{
+	font-size:13px; 
+	line-height:25px;
+	color: #595959;
+	margin-top: 10px;
+		}
+
+.company_add{width:20%;
+		height:175px;
+		margin-left: 600px;
+		margin-top: -155px;
+		
+	}
+	.company_service{width:20%;
+		height:175px;
+		margin-left: 1150px;
+		margin-top: -195px;
+		
+	}
+.company_list{ width: 500px;
+	margin-top: 10px;
+
+}
+.company_add>p{
+font-size:13px;
+line-height:17px;color: #595959;
+line-height:25px;
+}
+.company_list,.company_service>p{
+font-size:13px;
+color: #595959;
+line-height:25px;
+}
+.company_bank>p{
+	font-size:13px;
+	color: #595959;
+	line-height:25px;
+	}
+.foot_logo h1 img{width:100px;}
+
+
+.company_bank{width:20%;
+	height:175px;
+	margin-left: 900px;
+	margin-top: -195px;
+	
+}
+
+
+
+
+.center>div{
+  width: 500px;
+  height: 500px;
+  background-color: #ffbcbc;
+}
+
+.eventlink{
+	text-decoration:none
+}
